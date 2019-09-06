@@ -33,19 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-   Semantic HTML is specific tags that allow a developer to know what that tag will contain. For example, a <nav> tag will more than likely contain a navigation, while a <footer> tag will more than likely contain the footer of the website.
+
+Semantic HTML is specific tags that allow a developer to know what that tag will contain. For example, a <nav> tag will more than likely contain a navigation, while a <footer> tag will more than likely contain the footer of the website.
 
 2. Name two big differences between `display: block;` and `display: inline;`.
-   Two differences between block and inline display is 1) that block display takes up as much width as its parent element will allow while inline only takes up as much space as its content and 2) height and width properties have no effect on inline elements.
+
+Two differences between block and inline display is 1) that block display takes up as much width as its parent element will allow while inline only takes up as much space as its content and 2) height and width properties have no effect on inline elements.
 
 3. What are the 4 areas of the box model?
-   The four (4) areas of the box model consist of the content, padding, margin, and the border.
+
+The four (4) areas of the box model consist of the content, padding, margin, and the border.
 
 4. While using flexbox, what axis does the following property work on: `align-items: center`?
-   The align-item property works on the cross-axis.
+
+The align-item property works on the cross-axis.
 
 5. Explain why git is valuable to a team of developers.
-   Git is valuable to a team of developers because it allows a team to simultaneously work on a project and split the work load, while also allowing the team to version control and revert back to changes and review progress.
+
+Git is valuable to a team of developers because it allows a team to simultaneously work on a project and split the work load, while also allowing the team to version control and revert back to changes and review progress.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
