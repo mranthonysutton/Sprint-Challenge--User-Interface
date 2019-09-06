@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is specific tags that allow a developer to know what that tag will contain. For example, a <nav> tag will more than likely contain a navigation, while a <footer> tag will more than likely contain the footer of the website.
+Semantic HTML is specific tags that allow a developer to know what that tag will contain. For example, a `<nav>` tag will more than likely contain a navigation, while a `<footer>` tag will more than likely contain the footer of the website.
 
 2. Name two big differences between `display: block;` and `display: inline;`.
 
