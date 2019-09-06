@@ -312,6 +312,17 @@ footer nav a {
   padding: 2%;
 }
 
+.about-page .middle-content .text-container button:hover,
+.blog-page .middle-content .text-container button:hover,
+.contact-page
+  .middle-content
+  .text-container
+  .form-container
+  input[type="submit"]:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
 /* ABOUT PAGE */
 .about-page .middle-content {
   display: flex;
@@ -376,12 +387,13 @@ footer nav a {
 }
 
 .blog-page .middle-content .text-container button {
-  width: 15%;
-  border: 1px solid #000;
-  border-radius: 10px;
-  margin-top: 2%;
-  padding: 1%;
+  font-size: 16px;
   background: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 2% 5%;
+  margin-top: 3%;
+  width: 25%;
 }
 
 .contact-page .middle-content .text-container .form-container {
@@ -408,21 +420,10 @@ textarea {
   .form-container
   input[type="submit"] {
   width: 25%;
-  justify-content: flex-end;
-  padding: 2% 1%;
-  resize: vertical;
+  margin: 3% auto;
+  font-size: 16px;
   background: #fff;
-  border: 1px solid #000;
+  border: 2px solid #000;
   border-radius: 10px;
-  margin: 0px auto;
-  margin-bottom: 3%;
-}
-
-.contact-page
-  .middle-content
-  .text-container
-  .form-container
-  input[type="submit"]:hover {
-  background: #000;
-  color: #fff;
+  padding: 2% 5%;
 }
