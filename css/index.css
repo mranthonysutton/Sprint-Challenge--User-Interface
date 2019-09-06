@@ -180,6 +180,10 @@ header .navigation-links a {
   text-decoration: none;
 }
 
+header .navigation-links a:hover {
+  text-decoration: underline;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -319,11 +323,11 @@ footer nav a {
   padding: 2% 0%;
 }
 
-.about-middle-content h2 {
+.about-page .middle-content h2 {
   padding: 3% 0;
 }
 
-.about-middle-content .text-container button {
+.about-page .middle-content .text-container button {
   font-size: 16px;
   background: #fff;
   border: 2px solid #000;
@@ -334,4 +338,50 @@ footer nav a {
 
 .about-page .bottom-content {
   padding: 3% 0;
+}
+
+/* BLOG PAGE */
+.blog-page .top-content .text-container {
+  width: 100%;
+  padding: 2%;
+}
+
+.blog-page .middle-content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+}
+
+.blog-page .middle-content .text-container {
+  justify-content: space-between;
+  padding: 3%;
+  border-bottom: 1px dashed #000;
+}
+
+.blog-page .middle-content .text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-page .middle-content .text-container img {
+  width: 100%;
+}
+
+.blog-page .middle-content .text-container h2 {
+  padding: 1% 0;
+}
+
+.blog-page .middle-content .text-container p.author {
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 2%;
+}
+
+.blog-page .middle-content .text-container button {
+  width: 15%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 1%;
+  background: #fff;
 }
