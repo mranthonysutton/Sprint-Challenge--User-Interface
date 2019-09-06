@@ -304,12 +304,15 @@ footer nav a {
   text-decoration: none;
 }
 
-/* ABOUT PAGE */
-.about-page .top-content .text-container {
+/* DEFAULT STYLES */
+.about-page .top-content .text-container,
+.blog-page .top-content .text-container,
+.contact-page .top-content .text-container {
   width: 100%;
   padding: 2%;
 }
 
+/* ABOUT PAGE */
 .about-page .middle-content {
   display: flex;
   flex-wrap: wrap;
@@ -341,11 +344,6 @@ footer nav a {
 }
 
 /* BLOG PAGE */
-.blog-page .top-content .text-container {
-  width: 100%;
-  padding: 2%;
-}
-
 .blog-page .middle-content {
   display: flex;
   flex-direction: column;
@@ -384,4 +382,47 @@ footer nav a {
   margin-top: 2%;
   padding: 1%;
   background: #fff;
+}
+
+.contact-page .middle-content .text-container .form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3%;
+}
+
+.contact-page
+  .middle-content
+  .text-container
+  .form-container
+  input[type="text"],
+input[type="submit"],
+textarea {
+  padding: 1%;
+  margin: 2% 0;
+  resize: vertical;
+}
+
+.contact-page
+  .middle-content
+  .text-container
+  .form-container
+  input[type="submit"] {
+  width: 25%;
+  justify-content: flex-end;
+  padding: 2% 1%;
+  resize: vertical;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 0px auto;
+  margin-bottom: 3%;
+}
+
+.contact-page
+  .middle-content
+  .text-container
+  .form-container
+  input[type="submit"]:hover {
+  background: #000;
+  color: #fff;
 }
